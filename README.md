@@ -1,50 +1,105 @@
-# Welcome to your Expo app 👋
+# Goals - React Native Goal Tracking App 🎯
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## ✨ Features
 
-## Get started
+- **📊 Dashboard** - Beautiful stats overview with completion rates and streaks
+- **🎯 Goal Management** - Create, edit, delete, and track goal progress
+- **📈 Analytics** - Visual progress tracking 
+- **💫 Quote of the Day** - Daily inspiration from external API
+- **👤 Profile & Subscription** - User profile with Stripe-ready subscription plans
+- **🎨 Premium UI** - Dark theme with purple gradients and smooth animations
 
-1. Install dependencies
+## 🚀 Quick Start
 
+### Prerequisites
+
+- Node.js (v18 or later)
+- npm or yarn
+- iOS Simulator (for iOS development)
+- Android Studio & Emulator (for Android development)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/goals.git
+   cd goals
+   ```
+
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. **Prebuild the project**
    ```bash
-   npx expo start
+   npx expo prebuild --clean
    ```
 
-In the output, you'll find options to open the app in a
+4. **Run on iOS**
+   ```bash
+   npx expo run:ios
+   ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+5. **Run on Android**
+   ```bash
+   npx expo run:android
+   ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Development Mode
 
-## Get a fresh project
-
-When you're ready, run:
+For faster development with hot reload:
 
 ```bash
-npm run reset-project
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Then press `i` for iOS simulator or `a` for Android emulator.
 
-## Learn more
+## 🛠️ Tech Stack
 
-To learn more about developing your project with Expo, look at the following resources:
+### Core Framework
+- **React Native** - Cross-platform mobile development
+- **Expo** - Development platform and toolchain
+- **TypeScript** - Type safety and better developer experience
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### UI & Styling
+- **NativeWind** - Tailwind CSS for React Native styling
+- **Lucide React Native** - Beautiful, consistent icons
+- **Custom Components** - Reusable UI component library
 
-## Join the community
+### State Management
+- **Zustand** - Lightweight state management with persistence
+- **React Hook Form** - Efficient form handling and validation
 
-Join our community of developers creating universal apps.
+### Data & Storage
+- **React Native MMKV** - High-performance key-value storage
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Navigation & Gestures
+- **Expo Router** - File-based routing system
+- **React Native Gesture Handler** - Native gesture recognition
+- **React Native Reanimated** - Smooth animations and transitions
+- **@gorhom/bottom-sheet** - Native bottom sheet modals
+
+
+## 🎨 Design System
+
+- **Color Scheme**: Dark theme with purple (#B794F6) accents
+- **Typography**: Hierarchical text system with proper contrast
+- **Components**: Consistent spacing, shadows, and border radius
+- **Animations**: Smooth transitions and micro-interactions
+- **Icons**: Lucide icon set for consistency
+
+## ⚡ Performance Optimizations
+
+- **MMKV Storage**: Lightning-fast native storage
+- **Zustand State**: Minimal re-renders and efficient updates
+
+## 🔧 Known Limitations
+
+- **Mock Data**: Profile data is currently static
+- **API Integration**: Quote API requires internet connection
+- **Subscription**: Stripe integration is structured but not live
+- **Notifications**: Push notification system not implemented
+- **Offline Mode**: Limited offline functionality
+
