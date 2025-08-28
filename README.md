@@ -5,6 +5,8 @@
 | <img width="400" alt="Dashboard" src="https://github.com/user-attachments/assets/29d20df2-849c-496e-9330-f9f98ea14b0b" /> | <img width="400" alt="Goals List" src="https://github.com/user-attachments/assets/73b7ca9c-5d12-4c4c-902d-b7e2e0186084" /> | <img width="400" alt="Goal Details" src="https://github.com/user-attachments/assets/166f9298-f311-4110-8720-0241fde77df3" /> |
 | <img width="400" alt="Add Goal" src="https://github.com/user-attachments/assets/148341a1-03c9-49fd-bb2d-5d2d0794cc5e" /> | <img width="400" alt="Profile" src="https://github.com/user-attachments/assets/565d125f-98a1-4030-8025-7fa51e631cfc" /> | <img width="400" alt="Settings" src="https://github.com/user-attachments/assets/68457ddd-54a2-45d1-a5a3-49eade9700b9" /> |
 
+https://expo.dev/accounts/glendell03/projects/goals/builds/80a7ad74-ec56-45b5-b78e-ac30fcf03b2b
+<img width="651" height="741" alt="image" src="https://github.com/user-attachments/assets/2b551d2b-8a26-48a8-af61-e30d2b88e137" />
 
 
 
